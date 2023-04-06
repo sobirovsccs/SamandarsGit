@@ -1,0 +1,70 @@
+.section1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:auto;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+
+    .matnlar {
+padding: 110px 0 0 130px;
+
+        h1 {
+            font-size: 60px;
+            font-weight: 800;
+        }
+
+        h2 {
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            max-width: 450px;
+            line-height: 24px;
+            padding: 24px 0 0 0;
+        }
+
+        .buttonlar {
+            margin-top: 34px;
+
+            .button1 {
+                background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+                padding: 10px;
+                border-radius: 50px;
+                color: #003459;
+                font-size: 16px;
+            }
+
+            .button2 {
+                color: white;
+                background-color: #003459;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 50px;
+                font-size: 16px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+img{
+   width: 800px;
+   height: 653px;
+   margin-right: -100px;
+}
+
+
+
+
+
+
+
+}
+@media(max-width:500px){
+    .section1{
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+}

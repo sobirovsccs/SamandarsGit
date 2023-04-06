@@ -1,0 +1,31 @@
+.section3{
+    width: 100%;
+    height: auto;
+    .bosh-matn{
+        display: flex;
+        padding: 60px 130px;
+       
+            h2{
+        color: #003459;
+    }
+        
+        button{
+            padding: 10px 30px;
+            border-radius: 50px;
+            margin-left: auto;
+        }
+        
+    }
+    .rasmlar{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 130px;
+    }
+}
+@media(max-width:500px){
+    .section3{
+        .rasmlar{
+            display: none;
+        }
+    }
+}

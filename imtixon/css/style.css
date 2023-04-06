@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  display: flex;
+  padding: 28px 130px;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+header nav {
+  margin-left: 50px;
+  margin-top: 8px;
+}
+header nav a {
+  text-decoration: none;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+header button {
+  cursor: pointer;
+  margin-left: auto;
+  color: white;
+  background-color: #003459;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 57px;
+}
+
+@media (max-width: 500px) {
+  header {
+    width: 1000px;
+  }
+  header nav {
+    display: none;
+  }
+  header button {
+    display: none;
+  }
+}
+.section1 {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+.section1 .matnlar {
+  padding: 110px 0 0 130px;
+}
+.section1 .matnlar h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.section1 .matnlar h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.section1 .matnlar p {
+  font-size: 16px;
+  max-width: 450px;
+  line-height: 24px;
+  padding: 24px 0 0 0;
+}
+.section1 .matnlar .buttonlar {
+  margin-top: 34px;
+}
+.section1 .matnlar .buttonlar .button1 {
+  cursor: pointer;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+  padding: 10px;
+  border-radius: 50px;
+  color: #003459;
+  font-size: 16px;
+}
+.section1 .matnlar .buttonlar .button2 {
+  cursor: pointer;
+  color: white;
+  background-color: #003459;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.section1 img {
+  width: 800px;
+  height: 653px;
+  margin-right: -100px;
+}
+
+@media (max-width: 500px) {
+  .section1 {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.section2 {
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+}
+.section2 .bosh-matn {
+  display: flex;
+  padding: 60px 130px;
+}
+.section2 .bosh-matn div h2 {
+  color: #003459;
+}
+.section2 .bosh-matn button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-left: auto;
+}
+.section2 .kantyner {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 130px;
+}
+.section2 .kantyner .imgs {
+  display: flex;
+}
+.section2 .div1 {
+  width: 280px;
+  height: 378px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 8px;
+}
+.section2 p {
+  color: #696666;
+  padding: 10px 0;
+}
+.section2 span {
+  font-weight: 700;
+}
+.section2 .div2 {
+  width: 630px;
+  height: 409px;
+  background: #003459;
+  border-radius: 20px 0 0 20px;
+}
+.section2 .div2 img {
+  margin-top: 65px;
+}
+.section2 .div3 {
+  width: 630px;
+  height: 409px;
+  background: #FCEED5;
+  border-radius: 0 20px 20px 0;
+}
+.section2 .div3 .matnlar {
+  text-align: right;
+  padding: 60px 50px;
+}
+.section2 .div3 .matnlar h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.section2 .div3 .matnlar h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.section2 .div3 .matnlar .buttonlar {
+  margin-top: 34px;
+}
+.section2 .div3 .matnlar .buttonlar .button1 {
+  cursor: pointer;
+  background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+  padding: 10px;
+  border-radius: 50px;
+  color: #003459;
+  font-size: 16px;
+}
+.section2 .div3 .matnlar .buttonlar .button2 {
+  cursor: pointer;
+  cursor: pointer;
+  color: white;
+  background-color: #003459;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.section2 .katta2 {
+  display: flex;
+  padding: 20px 130px;
+}
+
+@media (max-width: 500px) {
+  .section2 {
+    width: 1000px;
+  }
+  .section2 .bosh-matn {
+    padding: 20px 200px;
+  }
+  .section2 .kantyner {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .section2 .kantyner .imgs {
+    display: flex;
+    padding: 20px 100px;
+  }
+  .section2 .katta2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section2 .katta2 .matnlar {
+    text-align: center;
+  }
+  .section2 .katta2 .div3 {
+    border-radius: 20px 20px 0 0;
+  }
+  .section2 .katta2 .div2 {
+    border-radius: 0 0 20px 20px;
+  }
+}
+.section3 {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+.section3 .bosh-matn {
+  display: flex;
+  padding: 60px 130px;
+}
+.section3 .bosh-matn h2 {
+  color: #003459;
+}
+.section3 .bosh-matn button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-left: auto;
+}
+.section3 .rasmlar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 130px;
+}
+
+@media (max-width: 500px) {
+  .section3 .rasmlar {
+    display: none;
+  }
+}
+footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 130px;
+}
+footer div {
+  margin-left: 50px;
+  margin-top: 8px;
+}
+footer div a {
+  text-decoration: none;
+  color: #003459;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+@media (max-width: 500px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer div {
+    display: flex;
+    margin-left: -20px;
+  }
+  footer div a {
+    text-align: center;
+    font-size: 40px;
+  }
+  .sayt {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */

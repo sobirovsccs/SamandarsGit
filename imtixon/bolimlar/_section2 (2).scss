@@ -1,0 +1,144 @@
+.section2{
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+
+
+    .bosh-matn{
+        display: flex;
+        padding: 60px 130px;
+        div{
+            h2{
+        color: #003459;
+    }
+        }
+        button{
+            padding: 10px 30px;
+            border-radius: 50px;
+            margin-left: auto;
+        }
+        
+    }
+    .kantyner{
+        display: flex;
+        justify-content: space-between;
+        padding: 28px 130px;
+        .imgs{
+            display: flex;
+        }
+    }
+    .div1{
+        width: 280px;
+        height: 378px;
+        background-color: white;
+         border-radius: 12px;
+          padding: 8px;
+    }
+    p{
+        color: #696666;
+        padding: 10px 0;
+    }
+    span{
+        font-weight: 700;
+    }
+    .div2{
+        width: 630px;
+        height: 409px;
+        background: #003459;
+      border-radius: 20px 0 0 20px;
+      img{
+        margin-top: 65px;
+      }
+
+
+    }
+    .div3{
+        width: 630px;
+        height: 409px;
+        background: #FCEED5;
+      border-radius: 0 20px  20px 0; 
+
+      .matnlar {
+        text-align: right;
+        padding: 60px 50px;
+        
+                h1 {
+                    font-size: 50px;
+                    font-weight: 800;
+                }
+        
+                h2 {
+                    font-size: 40px;
+                    font-weight: 700;
+                }
+        
+                
+        
+                .buttonlar {
+                    margin-top: 34px;
+        
+                    .button1 {
+                        background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+                        padding: 10px;
+                        border-radius: 50px;
+                        color: #003459;
+                        font-size: 16px;
+                    }
+        
+                    .button2 {
+                        color: white;
+                        background-color: #003459;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 50px;
+                        font-size: 16px;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        
+    }
+    .katta2{
+        display: flex;
+        padding: 20px 130px;
+    }
+    
+    
+    
+    
+}
+@media(max-width:500px){
+    .section2{
+        width: 1000px;
+        .bosh-matn{
+            padding: 20px 200px;
+        }
+
+        .kantyner{
+            padding: 20px;
+            flex-wrap: wrap;
+            .imgs{
+                display: flex;
+                padding: 20px 100px;
+               
+            }
+            
+        }
+        .katta2{
+            display: flex;
+            flex-direction: column-reverse;
+            
+            .matnlar{
+                text-align: center;
+                
+            }
+            .div3{
+                border-radius: 20px 20px 0 0;
+            }
+            .div2{
+                border-radius: 0 0 20px 20px;
+            }
+
+        }
+    }
+}
